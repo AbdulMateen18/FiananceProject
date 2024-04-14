@@ -20,11 +20,26 @@ const Footer = () => {
           accusantium.
         </p>
         <div className="flex justify-between md:w-[75%] my-6">
-          <FaFacebookSquare size={30} />
-          <FaInstagram size={30} />
-          <FaTwitterSquare size={30} />
-          <FaGithubSquare size={30} />
-          <FaDribbbleSquare size={30} />
+          <FaFacebookSquare
+            size={30}
+            className="hover:text-[#1877F2] fill-current cursor-pointer"
+          />
+          <FaInstagram
+            size={30}
+            className="hover:text-[#fccc63] fill-current cursor-pointer"
+          />
+          <FaTwitterSquare
+            size={30}
+            className="hover:text-[#1DA1F2] fill-current cursor-pointer"
+          />
+          <FaGithubSquare
+            size={30}
+            className="hover:text-[#00df9a] fill-current cursor-pointer"
+          />
+          <FaDribbbleSquare
+            size={30}
+            className="hover:text-[#f468f2e0] fill-current cursor-pointer"
+          />
         </div>
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6">
