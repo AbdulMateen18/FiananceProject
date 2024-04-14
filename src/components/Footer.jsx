@@ -46,37 +46,69 @@ const Footer = () => {
         <div>
           <h6 className="font-medium text-gray-400">Solutions</h6>
           <ul>
-            <li className="py-2 text-sm">Analytics</li>
-            <li className="py-2 text-sm">Marketing</li>
-            <li className="py-2 text-sm">Commerce</li>
-            <li className="py-2 text-sm">Insights</li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              Analytics
+            </li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              Marketing
+            </li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              Commerce
+            </li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              Insights
+            </li>
           </ul>
         </div>
         <div>
           <h6 className="font-medium text-gray-400">Support</h6>
           <ul>
-            <li className="py-2 text-sm">Pricing</li>
-            <li className="py-2 text-sm">Documentation</li>
-            <li className="py-2 text-sm">Guides</li>
-            <li className="py-2 text-sm">API Status</li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              Pricing
+            </li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              Documentation
+            </li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              Guides
+            </li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              API Status
+            </li>
           </ul>
         </div>
         <div>
           <h6 className="font-medium text-gray-400">Company</h6>
           <ul>
-            <li className="py-2 text-sm">About</li>
-            <li className="py-2 text-sm">Blog</li>
-            <li className="py-2 text-sm">Jobs</li>
-            <li className="py-2 text-sm">Press</li>
-            <li className="py-2 text-sm">Careers</li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              About
+            </li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              Blog
+            </li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              Jobs
+            </li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              Press
+            </li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              Careers
+            </li>
           </ul>
         </div>
         <div>
           <h6 className="font-medium text-gray-400">Legal</h6>
           <ul>
-            <li className="py-2 text-sm">Claim</li>
-            <li className="py-2 text-sm">Policy</li>
-            <li className="py-2 text-sm">Terms</li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              Claim
+            </li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              Policy
+            </li>
+            <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
+              Terms
+            </li>
           </ul>
         </div>
       </div>
