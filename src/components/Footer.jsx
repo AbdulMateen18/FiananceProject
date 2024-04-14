@@ -44,7 +44,7 @@ const Footer = () => {
       </div>
       <div className="lg:col-span-2 flex justify-between mt-6">
         <div>
-          <h6 className="font-medium text-gray-400">Solutions</h6>
+          <h5 className="font-medium text-gray-400">Solutions</h5>
           <ul>
             <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
               Analytics
@@ -61,7 +61,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gray-400">Support</h6>
+          <h5 className="font-medium text-gray-400">Support</h5>
           <ul>
             <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
               Pricing
@@ -78,7 +78,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gray-400">Company</h6>
+          <h5 className="font-medium text-gray-400">Company</h5>
           <ul>
             <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
               About
@@ -98,7 +98,7 @@ const Footer = () => {
           </ul>
         </div>
         <div>
-          <h6 className="font-medium text-gray-400">Legal</h6>
+          <h5 className="font-medium text-gray-400">Legal</h5>
           <ul>
             <li className="py-2 text-sm cursor-pointer hover:text-[#00df9a]">
               Claim
