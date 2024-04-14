@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <div className="max-w-[1240px] mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
       <div>
-        <h1 className="w-full text-3xl font-bold text-[#00df9a]">
+        <h1 className="w-full text-3xl font-bold text-[#00df9a] cursor-pointer">
           AnalyticsHub
         </h1>
         <p className="py-4">
@@ -22,23 +22,23 @@ const Footer = () => {
         <div className="flex justify-between md:w-[75%] my-6">
           <FaFacebookSquare
             size={30}
-            className="hover:text-[#1877F2] fill-current cursor-pointer"
+            className="hover:text-[#1877F2] transition-colors duration-300 ease-in-out fill-current cursor-pointer"
           />
           <FaInstagram
             size={30}
-            className="hover:text-[#fccc63] fill-current cursor-pointer"
+            className="hover:text-[#fccc63] transition-colors duration-300 ease-in-out fill-current cursor-pointer"
           />
           <FaTwitterSquare
             size={30}
-            className="hover:text-[#1DA1F2] fill-current cursor-pointer"
+            className="hover:text-[#1DA1F2] transition-colors duration-300 ease-in-out fill-current cursor-pointer"
           />
           <FaGithubSquare
             size={30}
-            className="hover:text-[#00df9a] fill-current cursor-pointer"
+            className="hover:text-[#00df9a] transition-colors duration-300 ease-in-out fill-current cursor-pointer"
           />
           <FaDribbbleSquare
             size={30}
-            className="hover:text-[#f468f2e0] fill-current cursor-pointer"
+            className="hover:text-[#f468f2e0] transition-colors duration-300 ease-in-out fill-current cursor-pointer"
           />
         </div>
       </div>
