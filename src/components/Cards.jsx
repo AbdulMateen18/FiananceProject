@@ -31,12 +31,12 @@ const Cards = () => {
             src={Double}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8">Single user</h2>
-          <p className="text-center text-4xl font-bold">$149</p>
+          <h2 className="text-2xl font-bold text-center py-8">Two users</h2>
+          <p className="text-center text-4xl font-bold">$249</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8">500 GB Storage</p>
-            <p className="py-2 border-b mx-8">1 Granted User</p>
-            <p className="py-2 border-b mx-8">Send upto 2 GB</p>
+            <p className="py-2 border-b mx-8 mt-8">1 TB Storage</p>
+            <p className="py-2 border-b mx-8">2 Granted Users</p>
+            <p className="py-2 border-b mx-8">Send upto 5 GB</p>
           </div>
           <button className="bg-black text-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3">
             Start Trial
@@ -49,12 +49,12 @@ const Cards = () => {
             src={Triple}
             alt="/"
           />
-          <h2 className="text-2xl font-bold text-center py-8">Single user</h2>
-          <p className="text-center text-4xl font-bold">$149</p>
+          <h2 className="text-2xl font-bold text-center py-8">Three users</h2>
+          <p className="text-center text-4xl font-bold">$349</p>
           <div className="text-center font-medium">
-            <p className="py-2 border-b mx-8 mt-8">500 GB Storage</p>
-            <p className="py-2 border-b mx-8">1 Granted User</p>
-            <p className="py-2 border-b mx-8">Send upto 2 GB</p>
+            <p className="py-2 border-b mx-8 mt-8">2 TB Storage</p>
+            <p className="py-2 border-b mx-8">3 Granted Users</p>
+            <p className="py-2 border-b mx-8">Send upto 10 GB</p>
           </div>
           <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto py-3 text-black">
             Start Trial
